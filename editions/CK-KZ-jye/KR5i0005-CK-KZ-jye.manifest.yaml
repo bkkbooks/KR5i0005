@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR5i0005/CK-KZ-jye/v1
+canonical_location: https://kanripo.org/bkk/KR5i0005/CK-KZ-jye/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上玄元道德經解
+  date: '2015-08-29 17:48:10.880876'
+  source:
+    repository: kanripo
+    path: KR5i0005
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ-jye
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0005_001-CK-KZ-jye.yaml, hash: 'sha256:ccd2be50f9ba9eaf8235e80824a3a0b32b0c6732612ed401d410d21cc27fcb07'}
+  - {seq: 2, filename: KR5i0005_002-CK-KZ-jye.yaml, hash: 'sha256:9cb93b5d6b6054b55f52716f63521e383bab0cd0bdf208e8c27e9682279dac4f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0005_001-CK-KZ-jye.markers.yaml, hash: 'sha256:11e2574bfb2935577542b4d148daccba719085630af28d58d9c298417749b207'}
+  - {seq: 2, role: markers, filename: assets/KR5i0005_002-CK-KZ-jye.markers.yaml, hash: 'sha256:0df1f2120fcd96a10f6ac1dcfcfd6845185ebb28204a5648c074a6a69e4d2560'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0005_01p001a
+    span:
+    - body
+    - 0
+    - 857
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0005_02p001a
+    span:
+    - body
+    - 0
+    - 41808
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:bc4c4c724c213645e142c8dc768f1595097b9710fda55d0d839965ced1945a25
